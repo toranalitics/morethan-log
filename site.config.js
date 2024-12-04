@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Toranalytics",
-    image: "/notion-avatar-1733316092342.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "./notion-avatar-1733316092342.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "프로덕트 매니저와 데이터 분석가",
     bio: "기획의 근거를 제시할 수 있어요",
     email: "twq41053@naver.com.com",
@@ -24,9 +24,9 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://toranalytics.vercel.app/",
   since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
