@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Toranalytics",
-    image: "notion-avatar-1733316740575.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/notion_avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "프로덕트 매니저와 데이터 분석가",
     bio: "기획의 근거를 제시할 수 있어요",
     email: "twq41053@naver.com.com",
