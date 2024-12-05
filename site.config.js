@@ -6,26 +6,26 @@ const CONFIG = {
     role: "프로덕트 매니저와 데이터 분석가",
     bio: "기획의 근거를 제시할 수 있어요",
     email: "twq41053@naver.com.com",
-    linkedin: "morethanmin",
-    github: "https://toranalitics.vercel.app/",
+    linkedin: "Toranalytics",
+    github: "https://toranalytics.vercel.app/",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
+      name: `toranalytics`,
       href: "https://github.com/morethanmin/morethan-log",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    title: "toranalytics",
+    description: "어서오세요 좋은 거 하나 가져가세요",
+    scheme: "light", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
   link: "https://toranalytics.vercel.app/",
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2024, // If leave this empty, current year will be used.
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
