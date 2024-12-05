@@ -20,7 +20,7 @@ const CONFIG = {
   blog: {
     title: "toranalytics",
     description: "어서오세요 좋은 거 하나 가져가세요",
-    scheme: "light", // 'light' | 'dark' | 'system'
+    scheme: "system", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
