@@ -1,13 +1,13 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "uiw6unoh",
-    image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "backend developer",
-    bio: "I develop everything using java.",
-    email: "uiw6unoh@naver.com",
-    linkedin: "uiw6unoh",
-    github: "uiw6unoh",
+    name: "toranalytics",
+    image: "avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "Data driven Product Manager",
+    bio: "데이터를 기반으로 PM을 합니다",
+    email: "twq41053@naver.com",
+    linkedin: "toranalytics",
+    github: "toranalytics",
     instagram: "",
   },
   projects: [
@@ -18,12 +18,12 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "uiw6unoh-log",
-    description: "welcome to uiw6unoh-log!",
+    title: "toranalytics",
+    description: "어서오세",
   },
 
   // CONFIG configration (required)
-  link: "https://uiw6unoh-log.vercel.app",
+  link: "https://toranalytics.vercel.app/",
   since: 2024, // If leave this empty, current year will be used.
   lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
@@ -31,7 +31,7 @@ const CONFIG = {
   // notion configuration (required)
   notionConfig: {
     // pageId: process.env.NOTION_PAGE_ID,
-    pageId: "609547dc18b740279c03b035f9476dff",
+    pageId: "152c153f32a180ab8ba3c9acfc7067a9",
   },
 
   // plugin configuration (optional)
