@@ -7,34 +7,19 @@ class MyDocument extends Document {
       <Html lang={CONFIG.lang}>
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <link
-            rel="apple-touch-icon"
-            sizes="192x192"
-            href="/apple-touch-icon.png"
-          />
+          <link rel="apple-touch-icon" sizes="192x192" href="/apple-touch-icon.png" />
           <link rel="manifest" href="/manifest.json" />
           <meta name="msapplication-TileColor" content="#ffffff" />
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
           <meta name="theme-color" content="#ffffff" />
-          <link
-            rel="alternate"
-            type="application/rss+xml"
-            title="RSS 2.0"
-            href="/feed"
-          />
+          <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed" />
           {/* google search console */}
-          {CONFIG.googleSearchConsole.enable === true && (
-            <meta
-              name="google-site-verification"
-              content={CONFIG.googleSearchConsole.config.siteVerification}
-            />
+          {CONFIG.googleSearchConsole.enable && (
+            <meta name="google-site-verification" content={CONFIG.googleSearchConsole.config.siteVerification} />
           )}
           {/* naver search console */}
-          {CONFIG.naverSearchAdvisor.enable === true && (
-            <meta
-              name="naver-site-verification"
-              content={CONFIG.naverSearchAdvisor.config.siteVerification}
-            />
+          {CONFIG.naverSearchAdvisor.enable && (
+            <meta name="naver-site-verification" content={CONFIG.naverSearchAdvisor.config.siteVerification} />
           )}
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-9P1NERCL82"></script>
           <script>
