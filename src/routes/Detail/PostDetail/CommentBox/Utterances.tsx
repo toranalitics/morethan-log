@@ -33,11 +33,7 @@ const Utterances: React.FC<Props> = ({ issueTerm }) => {
     };
   }, [scheme, issueTerm, router]); // issueTerm 추가
 
-  return (
-    <StyledWrapper id="comments">
-      {/* <div className="utterances-frame"></div> */}
-    </StyledWrapper>
-  );
+  return <StyledWrapper id="comments"></StyledWrapper>;
 };
 
 export default Utterances;
