@@ -19,7 +19,7 @@ const CONFIG = {
   // blog setting (required)
   blog: {
     title: "toranalytics",
-    description: "어서오세",
+    description: "어서오세요 tora예요",
   },
 
   // CONFIG configration (required)
