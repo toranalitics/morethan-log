@@ -15,15 +15,15 @@ function App({ Component, pageProps }: AppPropsWithLayout) {
       <Hydrate state={pageProps.dehydratedState}>
         <RootLayout>
           <Head>
-            {/* Google tag (gtag.js) */}
-            <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_TAG_ID}`}></script>
-            <script>
-              {`window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_TAG_ID}');`}
-            </script>
-          </Head>
+  <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_TAG_ID}`}></script>
+  <script>
+    {`window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_TAG_ID}');`}
+  </script>
+</Head>
+
           {getLayout(<Component {...pageProps} />)}
         </RootLayout>
       </Hydrate>
